@@ -1,0 +1,8 @@
+body {
+    height: 800px;
+    width: 800px;
+}
+
+.character {
+    border: 1px solid black;
+}
