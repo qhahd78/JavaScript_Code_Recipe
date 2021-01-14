@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="num31.css">
+    <title>Document</title>
+</head>
+<body>
+    <label>지역명의 첫 번째 글자를 입력해주세요. 
+        <input id="search-word-input" maxlength="1" type="text">
+    </label>
+    <div id="prefecture-list">
+
+        <!-- 각 속성에 data-*** 하면 속성에 data 값을 따로 넣어줄 수 있다. *** 에는 아무거나 넣어도 됨 -->
+        <button data-name="속초" data-phonetic="sokcho">속초</button>
+        <button data-name="부산" data-phonetic="busan">부산</button>
+        <button data-name="제주" data-phonetic="jeju">제주</button>
+    </div>
+</body>
+<script src="../js/num31.js"></script>
+</html>
