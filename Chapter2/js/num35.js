@@ -1,6 +1,6 @@
 // 해시 데이터 보관 
 
-const hashes = {}; 
+const hashes = {} ;
 
 // URL의 파라미터를 배열로 가져오기
 const parameters = location.search.split(/& | \?/).filter((value) => {
@@ -15,5 +15,13 @@ parameters.forEach((parameter) => {
     // value를 디코딩 
     const value = decodeURIComponent(parameterList[1]);
 
-    hashes
-})
+    hashes[key] = value;
+});
+
+// 파라미터 데이터 처리 
+
+// hashes에 id 가 포함된 경우 처리 작업 
+
+if (hashes['id'] != null) {
+    document.querySelector('.id').innerHTML = hashes['id'];
+}

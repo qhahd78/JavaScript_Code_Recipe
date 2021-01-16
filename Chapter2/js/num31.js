@@ -25,6 +25,7 @@ searchWordText.addEventListener('keyup', () => {
         }
 
         // 데이터 name 가져오기 
+        console.log(prefectureList);
         const prefectureName = element.dataset.name;
 
         // 데이터 영문 name 가져오기 
