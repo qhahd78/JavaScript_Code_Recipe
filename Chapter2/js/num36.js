@@ -17,6 +17,6 @@ function onKeyUp() {
     const firstName = firstNameText.value; 
 
     // fullName 에다가 아래 내용 추가 
-    fullName.innerHTML = `${familyName} ${firstName}`;
+    fullName.innerHTML = `${familyName}${firstName}`;
 
 }
