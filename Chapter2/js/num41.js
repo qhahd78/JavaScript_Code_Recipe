@@ -4,6 +4,7 @@ const secondElement = document.querySelector('.second');
 // 15초를 목표치로 지정
 const goalTime = new Date().getTime() + 15 * 1000;
 
+
 update();
 
 function update() {
